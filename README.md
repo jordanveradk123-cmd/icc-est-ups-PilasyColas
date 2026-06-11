@@ -118,4 +118,9 @@ public boolean isPalindrome(String text) {
     }
 
 ```
+## Concluciones
+1.Si el objetivo es regresar sobre nuestros pasos o cancelar tareas de forma cronológica inversa, las pilas (LIFO) son indispensables, ya que operan bajo la premisa de que lo último en llegar es lo primero en salir.
+2.Para escenarios que exigen equidad y respeto al orden de entrada (como las filas de atención o buffers de datos), las colas (FIFO) son insustituibles al despachar antes al elemento que lleva más tiempo esperando.
+3.Aunque comparten la simplicidad de ser lineales, la decisión entre pila y cola no es aleatoria; depende de la dinámica de acceso que busque el algoritmo para resolver el problema de la manera más ágil posible.
+
 
